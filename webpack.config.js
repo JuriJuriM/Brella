@@ -34,7 +34,7 @@ module.exports = {
       directory: path.resolve(__dirname, 'dist'),
     },
     // тут нужно вместо index.html указать явно какую страницу открвыть напрмер page.html
-    open: '/main.html',
+    open: '/index.html',
     hot: false,
   },
   devtool: 'source-map',
